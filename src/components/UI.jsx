@@ -2,28 +2,28 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
-  "DSC00680",
-  "DSC00933",
-  "DSC00966",
-  "DSC00983",
-  "DSC01011",
-  "DSC01040",
-  "DSC01064",
-  "DSC01071",
-  "DSC01103",
-  "DSC01145",
-  "DSC01420",
-  "DSC01461",
-  "DSC01489",
-  "DSC02031",
-  "DSC02064",
-  "DSC02069",
+  "photo_1_2024-09-11_15-57-22",
+  "photo_2_2024-09-11_15-57-22",
+  "photo_3_2024-09-11_15-57-22",
+  "photo_4_2024-09-11_15-57-22",
+  "photo_5_2024-09-11_15-57-22",
+  "photo_6_2024-09-11_15-57-22",
+  "photo_7_2024-09-11_15-57-22",
+  "photo_8_2024-09-11_15-57-22",
+  "photo_9_2024-09-11_15-57-22",
+  "photo_10_2024-09-11_15-57-22",
+  "photo_11_2024-09-11_15-57-22",
+  "photo_12_2024-09-11_15-57-22",
+  "photo_1_2024-09-11_15-57-22",
+  "photo_2_2024-09-11_15-57-22",
+  "photo_3_2024-09-11_15-57-22",
+  "photo_5_2024-09-11_15-57-22",
 ];
 
 export const pageAtom = atom(0);
 export const pages = [
   {
-    front: "book-cover",
+    front: "photo_11_2024-09-11_15-57-22",
     back: pictures[0],
   },
 ];
@@ -36,7 +36,7 @@ for (let i = 1; i < pictures.length - 1; i += 2) {
 
 pages.push({
   front: pictures[pictures.length - 1],
-  back: "book-back",
+  back: "photo_12_2024-09-11_15-57-22",
 });
 
 export const UI = () => {
@@ -52,9 +52,9 @@ export const UI = () => {
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
         <a
           className="pointer-events-auto mt-10 ml-10"
-          href="https://lessons.wawasensei.dev/courses/react-three-fiber"
+          href="https://t.me/+qgEI4Zg0xq1jN2Q0"
         >
-          <img className="w-20" src="/images/wawasensei-white.png" />
+          <img className="w-20" src="images/logo2.png" />
         </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
@@ -89,55 +89,32 @@ export const UI = () => {
         <div className="relative">
           <div className="bg-white/0  animate-horizontal-scroll flex items-center gap-8 w-max px-8">
             <h1 className="shrink-0 text-white text-10xl font-black ">
-              Wawa Sensei
-            </h1>
+ALLY           </h1>
             <h2 className="shrink-0 text-white text-8xl italic font-light">
-              React Three Fiber
-            </h2>
+Community            </h2>
             <h2 className="shrink-0 text-white text-12xl font-bold">
-              Three.js
+             META
             </h2>
             <h2 className="shrink-0 text-transparent text-12xl font-bold italic outline-text">
-              Ultimate Guide
-            </h2>
+is            </h2>
             <h2 className="shrink-0 text-white text-9xl font-medium">
-              Tutorials
+              ON
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-extralight italic">
-              Learn
+              the
             </h2>
             <h2 className="shrink-0 text-white text-13xl font-bold">
-              Practice
+              way
             </h2>
             <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
-              Creative
+              to
             </h2>
           </div>
-          <div className="absolute top-0 left-0 bg-white/0 animate-horizontal-scroll-2 flex items-center gap-8 px-8 w-max">
-            <h1 className="shrink-0 text-white text-10xl font-black ">
-              Wawa Sensei
-            </h1>
-            <h2 className="shrink-0 text-white text-8xl italic font-light">
-              React Three Fiber
-            </h2>
-            <h2 className="shrink-0 text-white text-12xl font-bold">
-              Three.js
-            </h2>
-            <h2 className="shrink-0 text-transparent text-12xl font-bold italic outline-text">
-              Ultimate Guide
-            </h2>
-            <h2 className="shrink-0 text-white text-9xl font-medium">
-              Tutorials
-            </h2>
-            <h2 className="shrink-0 text-white text-9xl font-extralight italic">
-              Learn
-            </h2>
-            <h2 className="shrink-0 text-white text-13xl font-bold">
-              Practice
-            </h2>
-            <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
-              Creative
-            </h2>
+          <div className="absolute top 50 left-0 bg-white/0 animate-horizontal-scroll-2 flex items-center gap-18 px-8 w-max">
+            <h2 className="shrink-0 text-white text-10xl font-black ">
+SOLANA            </h2>
+
+           
           </div>
         </div>
       </div>
