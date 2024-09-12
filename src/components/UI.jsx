@@ -2,22 +2,22 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
-  "photo_1_2024-09-11_15-57-22",
-  "photo_2_2024-09-11_15-57-22",
-  "photo_3_2024-09-11_15-57-22",
-  "photo_4_2024-09-11_15-57-22",
-  "photo_5_2024-09-11_15-57-22",
-  "photo_6_2024-09-11_15-57-22",
-  "photo_7_2024-09-11_15-57-22",
-  "photo_8_2024-09-11_15-57-22",
-  "photo_9_2024-09-11_15-57-22",
-  "photo_10_2024-09-11_15-57-22",
-  "photo_11_2024-09-11_15-57-22",
-  "photo_12_2024-09-11_15-57-22",
-  "photo_1_2024-09-11_15-57-22",
-  "photo_2_2024-09-11_15-57-22",
-  "photo_3_2024-09-11_15-57-22",
-  "photo_5_2024-09-11_15-57-22",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
 ];
 
 export const pageAtom = atom(0);
@@ -52,9 +52,9 @@ export const UI = () => {
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
         <a
           className="pointer-events-auto mt-10 ml-10"
-          href="https://t.me/+qgEI4Zg0xq1jN2Q0"
+          href="https://t.me/+v5_6cI2X8Lw3ZDBh"
         >
-          <img className="w-20" src="images/logo2.png" />
+          <img className="w-20" src="images/logo.png" />
         </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
