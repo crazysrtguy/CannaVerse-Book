@@ -2,7 +2,7 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
-  "1",
+  "13",
   "9",
   "3",
   "4",
@@ -17,13 +17,13 @@ const pictures = [
   "13",
   "2",
   "4",
-  "1",
+  "3",
 ];
 
 export const pageAtom = atom(0);
 export const pages = [
   {
-    front: "6",
+    front: "13",
     back: pictures[0],
   },
 ];
@@ -36,7 +36,7 @@ for (let i = 1; i < pictures.length - 1; i += 2) {
 
 pages.push({
   front: pictures[pictures.length - 1],
-  back: "12",
+  back: "2",
 });
 
 export const UI = () => {
