@@ -23,7 +23,7 @@ const pictures = [
 export const pageAtom = atom(0);
 export const pages = [
   {
-    front: "photo_11_2024-09-11_15-57-22",
+    front: "6",
     back: pictures[0],
   },
 ];
@@ -36,7 +36,7 @@ for (let i = 1; i < pictures.length - 1; i += 2) {
 
 pages.push({
   front: pictures[pictures.length - 1],
-  back: "photo_12_2024-09-11_15-57-22",
+  back: "1",
 });
 
 export const UI = () => {
