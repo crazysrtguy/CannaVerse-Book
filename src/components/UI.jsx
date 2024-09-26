@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const pictures = [
   "13",
-  "9",
+  "111",
   "3",
   "4",
   "5",
