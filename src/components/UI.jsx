@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const pictures = [
   "1",
-  "2",
+  "9",
   "3",
   "4",
   "5",
@@ -36,7 +36,7 @@ for (let i = 1; i < pictures.length - 1; i += 2) {
 
 pages.push({
   front: pictures[pictures.length - 1],
-  back: "1",
+  back: "12",
 });
 
 export const UI = () => {
