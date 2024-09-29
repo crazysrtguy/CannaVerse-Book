@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const pictures = [
   "13",
-  "111",
+  "14",
   "3",
   "4",
   "5",
@@ -52,7 +52,7 @@ export const UI = () => {
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
         <a
           className="pointer-events-auto mt-10 ml-10"
-          href="https://t.me/+sYdr52nqnjQyNDAx"
+          href="https://t.me/SOLfronke"
         >
           <img className="w-20" src="images/logo2.png" />
         </a>
